@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+html,body { height: 100%; margin: 0; padding: 0; }
+body {
+    background: url('../images/bg.jpg') black no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-align: center;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.vertical-center {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.vertical-center:before {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.vertical-center > .container {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    color: white;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+    color: #4F92AF;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before, a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+h1 {
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* social */
+.icons {
+    padding: 15px 0 0 0;
+}
+
+.icons a {
+    font-size: 24px;
+    padding: 0 5px;
+    transition: all 0.3s;
+}
+
+.fa-heart {
+    color: #ff3d69;
+}
+
+/* footer */
+p.copyright {
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+p.copyright.fa {
+    font-weight: bold;
+}
+
