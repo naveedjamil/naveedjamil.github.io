@@ -126,7 +126,7 @@ p {
 }
 
 .sidebar-wrapper .container-block {
-    padding: 30px;
+    padding: 28px;
     overflow: auto;
 }
 
@@ -206,9 +206,14 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 30px;
-    padding-right: 300px;
+    padding-right: 260px;
     padding-top: 60px;
 }
+
+.main-summary {
+    padding-right: 30px;
+}
+
 
 .main-wrapper .section-title {
     text-transform: uppercase;
@@ -341,12 +346,14 @@ p {
 .timeline>.items {
     display: inline-block;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .timeline>.items>.duration {
     float: left;
-    width: 25%;
-    padding-right: 5px;
+    width: 20%;
+    padding-right: 10px;
+    /* margin-right: 1px; */
 }
 
 .timeline>.items>.infowrapper {
